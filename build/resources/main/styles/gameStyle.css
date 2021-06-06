@@ -1,0 +1,23 @@
+.root {
+    -fx-background-color: #B0B0B0;
+}
+
+#rightArrow {
+    -fx-background-color: none;
+    -fx-font-weight: bold;
+}
+
+#leftArrow {
+    -fx-background-color: none;
+    -fx-font-weight: bold;
+}
+
+#upArrow {
+    -fx-background-color: none;
+    -fx-font-weight: bold;
+}
+
+#tryBtn {
+    -fx-background-color: none;
+    -fx-font-weight: bold;
+}

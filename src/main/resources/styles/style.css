@@ -1,0 +1,25 @@
+.root {
+    -fx-background-color: #B0B0B0;
+}
+#startBtn {
+    -fx-text-fill: white;
+    -fx-background-color: #585858;
+    -fx-border-radius: 5px;
+}
+
+#exitBtn {
+    -fx-text-fill: white;
+    -fx-background-color: #585858;
+    -fx-border-radius: 5px;
+}
+
+#optionBtn {
+    -fx-text-fill: white;
+    -fx-background-color: #585858;
+    -fx-border-radius: 5px;
+}
+
+#textTitle {
+    -fx-font-family: 'Signika Negative', sans-serif;
+    -fx-font-weight: 800;
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="presentation.gui.ControllerRoom4">
+   <children>
+      <ImageView fitHeight="198.0" fitWidth="417.0" layoutX="124.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@styles/images/HrkNZ8g.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="123.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Now when you are on the way to the goblin camp">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="145.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You went to the tavern to ask about goblins">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="145.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Which one you will choose:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Button fx:id="rightArrow" layoutX="124.0" layoutY="361.0" mnemonicParsing="false" onAction="#backBtn" text="Go back">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="upArrow" layoutX="241.0" layoutY="361.0" mnemonicParsing="false" onAction="#nextRoomBtn" text="Left">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="leftArrow" layoutX="399.0" layoutY="361.0" mnemonicParsing="false" onAction="#mainMenuBtn" text="Main Menu">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="tryBtn" layoutX="314.0" layoutY="361.0" mnemonicParsing="false" onAction="#giveTryBtn" text="Right">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

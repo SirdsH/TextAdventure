@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="presentation.gui.ControllerRoom5">
+   <children>
+      <ImageView fitHeight="198.0" fitWidth="352.0" layoutX="150.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@styles/images/6c713504151f33f1dbf7e1d0d66f2ba7.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="149.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You get in a village and get what you need">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="160.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You have run away and get safely home">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
